@@ -1,0 +1,2 @@
+var e=Array.from(document.querySelector("tr").children),r=e[0].parentElement,o=e[1].cloneNode(!0);r.insertBefore(o,e[4]);for(var n=Array.from(document.querySelector("tbody").children),t=0;t<n.length;t++){var c=Array.from(n[t].children),l=c[1].cloneNode(!0);n[t].insertBefore(l,c[4])}var d=Array.from(document.querySelector("tfoot").children[0].children),a=d[0].parentElement,f=d[1].cloneNode(!0);a.insertBefore(f,d[4]);
+//# sourceMappingURL=index.f88b1c95.js.map
